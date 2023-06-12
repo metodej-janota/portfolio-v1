@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- LINKS -->
+    <link rel="stylesheet" href="/assets/style.css" />
+    <title>MJ · Portfolio</title>
+  </head>
+
+  <body>
+    <!--NAVBAR-->
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-light bg-light rounded"
+      aria-label="Eleventh navbar example"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/www/index.html">
+          <i
+            data-feather="box"
+            alt=""
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          ></i>
+          MJ
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample09"
+          aria-controls="navbarsExample09"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample09">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/www/index.html">Úvod</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/www/projekty.html">Projekty</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Galerie</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/www/nabidka.html">Nabídka</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/www/kontakty.html">Kontakty</a>
+            </li>
+          </ul>
+          <div class="form-check form-switch ms-auto mt-3 me-3">
+            <label for="lightSwitch"
+              ><i data-feather="sun" width="30" height="24" id="modeIcon"></i
+            ></label>
+            <input class="form-check-input" type="checkbox" id="lightSwitch" />
+          </div>
+        </div>
+      </div>
+    </nav>
+    <br /><br />
+    <!--NAVBAR-->
+
+    <!-- HERO -->
+    <section>
+      <div class="px-4 my-5 text-center">
+        <i
+          data-feather="at-sign"
+          class="d-block mx-auto mb-4"
+          width="72"
+          height="57"
+        ></i>
+        <h1 class="display-5 fw-bold text-body-emphasis">Kontaktujte mě</h1>
+        <h5 class="text-uppercase text-muted">
+          Mám zájem o váš projekt a rád vám pomohu
+        </h5>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Vítejte na mé kontaktní stránce! Pokud máte jakékoliv dotazy, zájem
+            o spolupráci nebo byste se jen rádi spojili se mnou, neváhejte mi
+            napsat. Jsem tu proto, abych vám poskytl veškeré informace a pomohl
+            vám s vašimi potřebami.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- HERO -->
+
+    <section>
+      <form class="col-xxl-5 px-4 mx-auto">
+        <div class="mb-3">
+          <label for="jmeno" class="form-label">Váše jméno:</label>
+          <input
+            id="jmeno"
+            class="form-control bg-light"
+            type="text"
+            placeholder="Pavel"
+            aria-label="default input example"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="prijmeni" class="form-label">Váše přijmení:</label>
+          <input
+            id="prijmeni"
+            class="form-control bg-light"
+            type="text"
+            placeholder="Novák"
+            aria-label="default input example"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Váš email:</label>
+          <input
+            type="email"
+            class="form-control bg-light"
+            id="exampleInputEmail1"
+            placeholder="jmeno@priklad.cz"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="prace" class="form-label"
+            >Vyberte téma vaší zprávy:</label
+          >
+          <select
+            class="form-select text-light bg-transparent"
+            id="prace"
+            multiple
+            aria-label="multiple select example"
+          >
+            <option selected value="1">Webová stránka</option>
+            <option value="2">Webová aplikace</option>
+            <option value="3">Mobilní aplikace</option>
+            <option value="4">Jiné...</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Vaše zpráva</label
+          >
+          <textarea
+            class="form-control bg-light"
+            id="exampleFormControlTextarea1"
+            placeholder="Napište zprávu zde..."
+            rows="3"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Odeslat</button>
+        <button type="reset" class="btn btn-outline-secondary">Reset</button>
+      </form>
+    </section>
+
+    <!-- PATIČKA -->
+    <div class="container">
+      <footer class="my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="/www/index.html" class="nav-link px-2 text-muted">Úvod</a>
+          </li>
+          <li class="nav-item">
+            <a href="/www/projekty.html" class="nav-link px-2 text-muted"
+              >Projekty</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Galerie</a>
+          </li>
+          <li class="nav-item">
+            <a href="/www/cenik.html" class="nav-link px-2 text-muted">Ceník</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Kontakty</a>
+          </li>
+        </ul>
+        <p class="text-center text-muted">&copy; 2023 Metoděj Janota</p>
+      </footer>
+    </div>
+    <!-- PATIČKA -->
+
+    <!--Bootstrap Bundle with Popper-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/switch.js"></script>
+  </body>
+</html>

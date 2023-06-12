@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Devicon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- LINKS -->
+    <link rel="stylesheet" href="/assets/style.css" />
+    <title>MJ · Portfolio</title>
+  </head>
+
+  <body>
+    <!--NAVBAR-->
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-light bg-light rounded"
+      aria-label="Eleventh navbar example"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/www/index.html">
+          <i
+            data-feather="box"
+            alt=""
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          ></i>
+          MJ
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample09"
+          aria-controls="navbarsExample09"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample09">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/www/index.html">Úvod</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/www/projekty.html">Projekty</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Galerie</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/www/nabidka.html">Nabídka</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/www/kontakty.html">Kontakty</a>
+            </li>
+          </ul>
+          <div class="form-check form-switch ms-auto mt-3 me-3">
+            <label for="lightSwitch"
+              ><i data-feather="sun" width="30" height="24" id="modeIcon"></i
+            ></label>
+            <input class="form-check-input" type="checkbox" id="lightSwitch" />
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--NAVBAR-->
+
+    <!-- HERO SECTION -->
+    <section>
+      <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold">Metoděj Janota</h1>
+        <h5 class="text-uppercase text-muted">Programátorské dobrodružství</h5>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Vítejte na mém programátorském portfoliu! Přináším vášeň a
+            zkušenosti v programování. Cílem je vytvářet kvalitní webové
+            aplikace, které posouvají digitální svět vpřed. Spolupracuji s
+            klienty, porozumím jejich potřebám a vytvořím uživatelsky přívětivá
+            řešení.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <a href="" class="btn btn-primary btn-lg px-4 me-sm-3"
+              >Prozkoumat projekty</a
+            >
+            <a href="" class="btn btn-outline-secondary btn-lg px-4"
+              >Přejít na kontakty</a
+            >
+          </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh">
+          <div class="container px-5">
+            <img
+              src="/assets/d.jpeg"
+              class="img-fluid border rounded-3 shadow-lg mb-4"
+              alt="Example image"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- HERO SECTION -->
+
+    <!-- ABOUT ME -->
+    <section data-aos="fade-right">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src="/assets/me.jpeg"
+              class="d-block mx-lg-auto img-fluid"
+              alt="Bootstrap Themes"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h5 class="text-uppercase text-muted">O mně</h5>
+            <h1 class="display-5 fw-bold lh-1 mb-3">
+              Inspirován technologií, poháněn kódem
+            </h1>
+            <p class="lead">
+              Ahoj! Jmenuji se Metoděj Janota a jsem studentem na střední škole
+              Creative Hill College a rád se věnuji tvorbě webovů a aplikacích.
+              Mám zkušenosti s programováním v jazycích jako je C++, HTML5, CSS
+              a JavaScript.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a href="#dovednosti" class="btn btn-primary btn-lg px-4 me-md-2"
+                >Přejít na dovednosti</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT ME -->
+
+    <!-- SKILL BARS -->
+    <section id="dovednosti" data-aos="fade-right">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="container">
+            <h5 class="text-uppercase text-muted">Dovednosti</h5>
+            <h1 class="display-10 fw-bold lh-1 mb-3">
+              Praxe v frontendu a backendu
+            </h1>
+            <p>
+              Mým hlavním zaměřením je plně ovládat frontendové a backendové
+              technologie, abych mohl efektivně vytvářet moderní a interaktivní
+              uživatelské rozhraní. Disponuji hlubokými znalostmi v oblasti
+              programovacích jazyků, nástrojů a frameworků, a to mi umožňuje
+              rychle a efektivně reagovat na požadavky projektu.
+            </p>
+          </div>
+        </div>
+        <h5 class="text-muted">Programovací jazyky:</h5>
+        <div class="progress">
+          <div
+            class="progress-bar text-start"
+            role="progressbar"
+            style="width: 80%"
+            aria-valuenow="25"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div class="container text-start">
+              <div class="row align-items-start">
+                <div class="col">
+                  <i class="devicon-javascript-plain"></i>
+                  JavaScript
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mezera"></div>
+        <div class="progress">
+          <div
+            class="progress-bar text-start"
+            role="progressbar"
+            style="width: 50%"
+            aria-valuenow="25"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div class="container text-start">
+              <div class="row align-items-start">
+                <div class="col">
+                  <i class="devicon-cplusplus-plain"></i>
+                  C++
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mezera"></div>
+        <div class="progress">
+          <div
+            class="progress-bar text-start"
+            role="progressbar"
+            style="width: 60%"
+            aria-valuenow="25"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div class="container text-start">
+              <div class="row align-items-start">
+                <div class="col">
+                  <i class="devicon-java-plain"></i>
+                  Java
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mezera"></div>
+        <div class="progress">
+          <div
+            class="progress-bar text-start"
+            role="progressbar"
+            style="width: 25%"
+            aria-valuenow="25"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div class="container text-start">
+              <div class="row align-items-start">
+                <div class="col">
+                  <i class="devicon-csharp-plain"></i>
+                  C#
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mezera"></div>
+        <div class="progress">
+          <div
+            class="progress-bar text-start"
+            role="progressbar"
+            style="width: 70%"
+            aria-valuenow="25"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div class="container text-start">
+              <div class="row align-items-start">
+                <div class="col">
+                  <i class="devicon-mysql-plain-wordmark"></i>
+                  MySQL
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mezera"></div>
+        <div class="progress">
+          <div
+            class="progress-bar text-start"
+            role="progressbar"
+            style="width: 40%"
+            aria-valuenow="25"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div class="container text-start">
+              <div class="row align-items-start">
+                <div class="col">
+                  <i class="devicon-dart-plain"></i>
+                  Dart
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mezera"></div>
+        <div class="progress">
+          <div
+            class="progress-bar text-start"
+            role="progressbar"
+            style="width: 15%"
+            aria-valuenow="25"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+          <div class="container text-start">
+            <div class="row align-items-start">
+              <div class="col">
+                <i class="devicon-swift-plain"></i>
+                Swift
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <br />
+    
+        <h5 class="text-muted">Frameworky</h5>
+        <div class="progress">
+          <div
+            class="progress-bar text-start"
+            role="progressbar"
+            style="width: 100%"
+            aria-valuenow="25"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div class="container text-start">
+              <div class="row align-items-start">
+                <div class="col">
+                  <i class="devicon-socketio-original"></i>
+                  Socket.io
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mezera"></div>
+        <div class="progress">
+          <div
+            class="progress-bar text-start"
+            role="progressbar"
+            style="width: 90%"
+            aria-valuenow="25"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div class="container text-start">
+              <div class="row align-items-start">
+                <div class="col">
+                  <i class="devicon-nodejs-plain"></i>
+                  Node
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mezera"></div>
+        <div class="progress">
+          <div
+            class="progress-bar text-start"
+            role="progressbar"
+            style="width: 50%"
+            aria-valuenow="25"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div class="container text-start">
+              <div class="row align-items-start">
+                <div class="col">
+                  <i class="devicon-react-original"></i>
+                  React
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SKILL BARS -->
+
+    <!-- PATIČKA -->
+    <div class="container">
+      <footer class="my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="/www/index.html" class="nav-link px-2 text-muted">Úvod</a>
+          </li>
+          <li class="nav-item">
+            <a href="/www/projekty.html" class="nav-link px-2 text-muted"
+              >Projekty</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Galerie</a>
+          </li>
+          <li class="nav-item">
+            <a href="/www/cenik.html" class="nav-link px-2 text-muted">Ceník</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Kontakty</a>
+          </li>
+        </ul>
+        <p class="text-center text-muted">&copy; 2023 Metoděj Janota</p>
+      </footer>
+    </div>
+    <!-- PATIČKA -->
+
+    <!--Bootstrap Bundle with Popper-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/switch.js"></script>
+  </body>
+</html>
