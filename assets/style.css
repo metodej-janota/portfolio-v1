@@ -1,3 +1,7 @@
+*{
+    transition: 0.05s;
+}
+
 html {
     scroll-behavior: smooth;
 }
